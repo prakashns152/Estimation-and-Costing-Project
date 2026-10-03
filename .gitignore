@@ -1,0 +1,19 @@
+# Environment variables / API keys
+.env
+.env.local
+.env.development
+.env.production
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit local secrets
+.streamlit/secrets.toml
