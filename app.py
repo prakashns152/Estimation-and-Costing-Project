@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 from utils.vector_store import query_rates
-from google import genai
+import google.generativeai as genai
 
 # Load environment variables securely from .env file
 load_dotenv()
